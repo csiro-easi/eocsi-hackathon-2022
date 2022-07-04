@@ -1,8 +1,9 @@
-# eocsi-hackathon-2022
+# EOCSI Hackathon 2022
 Notebooks and materials for the EOCSI Hackathon 2022, https://frontiersi.com.au/climate-innovation-hack/
 
 Use the examples in these notebooks to build your own data analysis and applications.
 
+These notebooks have been adapted and written for [CSIRO's EASI SE Asia platform](https://research.csiro.au/cceo/building-new-earth-observation-capabilities-in-the-south-east-asian-region/).
 
 ## Overview
 
@@ -25,11 +26,6 @@ Use the examples in these notebooks to build your own data analysis and applicat
 
 #### bin/
 - Scripts for managing and contributing to the repository.
-
-
-## Background
-
-These notebooks have been adapted and tested for CSIRO's EASI SE Asia platform. See https://research.csiro.au/cceo/building-new-earth-observation-capabilities-in-the-south-east-asian-region/
 
 
 ## Contributing

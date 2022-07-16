@@ -13,7 +13,7 @@ platform](https://research.csiro.au/cceo/building-new-earth-observation-capabili
 
 ## Overview
 
-### *.ipynb
+#### *.ipynb
 
 - Notebooks that introduce aspects of EASI, Dask and the Open Data Cube libraries.
 - Work through these as a Training exercise, and refer back to them for examples.
@@ -31,11 +31,11 @@ platform](https://research.csiro.au/cceo/building-new-earth-observation-capabili
 #### tools/
 - Helper scripts used in the these notebooks.
 
-### resources/
+#### resources/
 
 - Supplementary files and images used in the EASI notebooks.
 
-### bin/
+#### bin/
 
 - Scripts for managing and contributing to the repository.
 

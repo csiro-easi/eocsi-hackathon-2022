@@ -18,3 +18,4 @@ platform](https://research.csiro.au/cceo/building-new-earth-observation-capabili
 > `main` branch by default. Edit a URL for a specific branch, or go to https://raw.githack.com/.
 
 1. [01-welcome-to-easi.html](https://raw.githack.com/csiro-easi/eocsi-hackathon-2022/main/html/01-welcome-to-easi.html)
+3. [03-water-observations-from-space.html](https://raw.githack.com/csiro-easi/eocsi-hackathon-2022/main/html/03-water-observations-from-space.html)

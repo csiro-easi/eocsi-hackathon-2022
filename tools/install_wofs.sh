@@ -30,18 +30,9 @@ function install_dependencies() {
     deactivate
 }
 
-function clone_repos() {
-    # Clore required repos
-    echo "Cloning additional repos. Please wait..."
-    if [ ! -d ${repos_dir}/hub-notebooks ] ; then
-        git clone --depth=1 https://csiro-easi@dev.azure.com/csiro-easi/easi-hub-public/_git/hub-notebooks ${repos_dir}/hub-notebooks
-    fi
-}
-
 if [ -d ${venv_root}/${venv} ]; then
     echo "${venv_name} kernel already installed"
 else
     create_venv
     install_dependencies
-    clone_repos
 fi

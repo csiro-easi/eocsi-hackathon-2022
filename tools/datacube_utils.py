@@ -10,6 +10,7 @@ import numpy as np
 import math
 import folium
 from pyproj import Transformer
+from collections import Counter
 
 
 # Borrowed from https://github.com/GeoscienceAustralia/dea-notebooks/blob/develop/Tools/dea_tools/datahandling.py
@@ -143,3 +144,12 @@ def _degree_to_zoom_level(l1, l2, margin=0.0):
     else:
         zoom_level_int = 18
     return zoom_level_int
+
+
+def xarray_object_size(data):
+    """Return a formatted string"""
+    val, unit = data.nbytes / (1024 ** 2), 'MB'
+    if val > 1024:
+        val, unit = data.nbytes / (1024 ** 3), 'GB'
+    return f'Dataset size: {val:.2f} {unit}'
+

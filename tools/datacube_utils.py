@@ -10,6 +10,7 @@ import numpy as np
 import math
 import folium
 from pyproj import Transformer
+from collections import Counter
 
 
 # Borrowed from https://github.com/GeoscienceAustralia/dea-notebooks/blob/develop/Tools/dea_tools/datahandling.py
@@ -34,9 +35,19 @@ def dc_query_only(**kw):
     return _impl(**kw)
 
 
-def mostcommon_crs(dc, query):
+def mostcommon_crs(dc, product, query):
     """Adapted from https://github.com/GeoscienceAustralia/dea-notebooks/blob/develop/Tools/dea_tools/datahandling.py"""
-    matching_datasets = dc.find_datasets(**query)
+    q = dict(query)
+    if not product and 'product' in q:
+        product = q['product']
+    if 'product' in q:
+        del q['product']
+    if isinstance(product, list):
+        matching_datasets = []
+        for i in product:
+            matching_datasets.extend(dc.find_datasets(product=i, **query))        
+    else:
+        matching_datasets = dc.find_datasets(product=product, **query)
     crs_list = [str(i.crs) for i in matching_datasets]
     crs_mostcommon = None
     if len(crs_list) > 0:

@@ -1,0 +1,55 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.22.6-Białowieża">
+  <identifier>idn_admbnda_adm3_bps_20200401</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>INDONESIA: Admin Level 3 Boundaries</title>
+  <abstract>The dataset represents the Admin3 (sub-district - kecamatan, distrik) of Indonesia
+
+Administrative Level 3 Boundaries of Indonesia</abstract>
+  <contact>
+    <contactAddress>
+      <type></type>
+      <address>1180 E. Broad St.</address>
+      <city>Athens</city>
+      <administrativearea>Georgia</administrativearea>
+      <postalcode>30602-5418</postalcode>
+      <country>US</country>
+    </contactAddress>
+    <name>Joseph Childs</name>
+    <organization>ITOS - University of Georgia</organization>
+    <position>Staff</position>
+    <voice>(706) 542-7766</voice>
+    <fax></fax>
+    <email>gist-admin@cviog.itos.uga.edu</email>
+    <role></role>
+  </contact>
+  <links/>
+  <history>Layer was downloaded as a shapefile by ITOS from HDX. It was then analyzed by ITOS for errors. Those errors were corrected and then the layer was sent back to UNOCHA as a feature class within a file geodatabase. The following errors were found and fixed by ITOS: 1. Names in Admin3 with ALL CAPS and spaces in between letters were made Proper Case. 2. Created and populated reference name field. Names with apostrophes now have a reference name without apostrophes. 3. Roman numerals in Admin3 names were made Proper Case. 4. Fixed 4 nesting errors between admin layers.</history>
+  <fees></fees>
+  <constraints type="Limitations of use">See the COD/FOD Registry Terms of Use. This does not replace any terms of use information provided with the dataset.</constraints>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys>
+      <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial maxy="6.07692999999999994" minx="95.01078599999999597" maxx="141.01939999999999031" crs="EPSG:4326" minz="0" maxz="0" miny="-11.00761499999999948" dimensions="2"/>
+    <temporal>
+      <period>
+        <start>2020-03-31T13:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>

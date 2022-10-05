@@ -21,3 +21,4 @@ platform](https://research.csiro.au/cceo/building-new-earth-observation-capabili
 1. [case-studies/water-observations-from-space.html](https://raw.githack.com/csiro-easi/eocsi-hackathon-2022/main/html/case-studies/water-observations-from-space.html)
 1. [tutorials/Datasets_and_xarray.html](https://raw.githack.com/csiro-easi/eocsi-hackathon-2022/main/html/tutorials/Datasets_and_xarray.html)
 1. [tutorials/Analyse_visualise_export.html](https://raw.githack.com/csiro-easi/eocsi-hackathon-2022/main/html/tutorials/Analyse_visualise_export.html)
+1. [tutorials/SAR_data.html](https://raw.githack.com/csiro-easi/eocsi-hackathon-2022/main/html/tutorials/SAR_data.html)

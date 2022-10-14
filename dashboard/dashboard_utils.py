@@ -113,7 +113,7 @@ def write_file(
             msg = []
             for i in selected:
                 singletimestamp_da = ds.isel(time=i).to_array()
-                timestr = str(ds.time[1].dt.strftime('%Y%m%dT%H%M%S').data)
+                timestr = str(ds.time[i].dt.strftime('%Y%m%dT%H%M%S').data)
                 target = write_file.stem + f'-{timestr}.tif'
                 msg.append(target)
                 write_cog(
